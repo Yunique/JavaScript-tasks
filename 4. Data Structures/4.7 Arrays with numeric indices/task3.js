@@ -1,0 +1,10 @@
+styles = ['Jazz', 'Blues'];
+console.log(styles);
+styles.push('Rock-an-Roll');
+console.log(styles);
+styles[styles.length-2] = 'Classic';
+console.log(styles);
+styles.shift();
+console.log(styles);
+styles.unshift('Rap', 'Raggy');
+console.log(styles);
